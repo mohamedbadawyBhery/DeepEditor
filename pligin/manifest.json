@@ -1,0 +1,11 @@
+{
+  "type": "plugin",
+  "runner": "node",
+  "owner": "bido",
+  "name": "deepeditor-tools",
+  "revision": 1,
+  "main": "dist/index.js",
+  "description": "21 advanced system tools for LM Studio: file ops, memory, code execution, Excel, dynamic tools, and natural language commands.",
+  "version": "1.0.0",
+  "displayName": "🐺 DeepEditor Tools"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "deepeditor-tools",
+  "version": "1.0.0",
+  "description": "new tools@pkg for files and code execution",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "dev": "lms dev",
+    "push": "lms push"
+  },
+  "author": "bido",
+  "license": "ISC",
+  "dependencies": {
+    "@lmstudio/sdk": "^1.5.0",
+    "exceljs": "^4.4.0",
+    "lines": "^1.0.1",
+    "more": "^0.1.6",
+    "show": "^0.0.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "rimraf": "^5.0.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  }
+}
